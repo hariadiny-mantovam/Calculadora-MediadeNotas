@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    font: normal 15pt 'Raleway';
+    text-align: center;
+    justify-content: center;
+    background: #aaaeb3;
+
+    
+}
+
+section{
+    background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526);  
+    background: linear-gradient(to right, #414345, #232526);
+    padding: 15px;
+    color: #fff;
+    margin: auto;
+    width: 400px;
+    box-shadow: 5px 5px 15px #111;
+}
+
+input{
+    font: normal 12pt 'Raleway';
+    text-align: center;
+    width: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    color: #111;
+}
+
+#botao{
+    width: 100px;
+
+}
+
+#res {
+    margin-top: 10px;
+}

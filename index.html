@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Calculadora para Notas</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora para notas</h1>
+        <p>Insira suas notas nos quatro campos abaixo para obter o resultado.</p>
+        
+    </header>
+    <section>
+        <div>
+            <p>Primeira nota:<input type="number" name="nota1" id="txnota1"></p>
+            <p>Segunda nota:<input type="number" name="nota2" id="txnota2"></p>
+            <p>Terceira nota:<input type="number" name="nota3" id="txnota3"></p>
+            <p>Quarta nota:<input type="number" name="nota4" id="txnota4"></p>
+            <p><input id="botao" type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+        <div id="res"></div>
+
+        <script src="script.js"></script>
+    </section>
+    
+</body>
+</html>
